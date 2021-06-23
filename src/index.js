@@ -37,8 +37,8 @@ function draw(x, y) {
   if (!isDrag) {
     return;
   }
+
   context.lineWidth = 5;
   context.lineTo(x, y);
   context.stroke();
-  context.strokeStyle = "blue";
 }
